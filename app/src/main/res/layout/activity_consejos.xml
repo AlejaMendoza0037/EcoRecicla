@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".consejos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                app:srcCompat="@drawable/tituloEcoRecicla" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consejos"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="523dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:text="
+                                Limpia y seca los materiales reciclables:
+                                Antes de colocar envases en el reciclaje,
+                                asegúrate de que estén libres de restos de alimentos
+                                y secos para evitar la contaminación del reciclaje.
+                                Separa los materiales:
+                                Los plásticos, vidrios, metales y papeles deben ser
+                                separados. Esta clasificación facilita el procesamiento
+                                 y asegura que los materiales sean reciclados
+                                adecuadamente.
+                                No mezcles materiales reciclables:
+                                No pongas vidrio y papel en el mismo contenedor.
+                                 La separación ayuda a mantener la calidad del
+                                 material reciclado.
+                                Recicla correctamente:
+                                Sigue las normas locales de reciclaje.
+                                Cada lugar puede tener requisitos específicos para
+                                 la separación y el manejo de residuos.
+                                Reutiliza siempre que puedas:
+                                Antes de reciclar, piensa si el objeto puede
+                                 ser reutilizado o donado. Reducir el uso de nuevos
+                                recursos es igual de importante.
+                                Reduce el uso de plásticos de un solo uso:
+                                Opta por alternativas reutilizables, como botellas
+                                de agua reutilizables y bolsas de tela, para disminuir
+                                 el desperdicio de plástico.
+                                Participa en programas de reciclaje comunitarios:
+                                Conoce y únete a los programas locales de reciclaje.
+                                Tu participación puede hacer una gran diferencia en
+                                la comunidad.
+                                No pongas residuos peligrosos en el reciclaje:
+                                Baterías, productos químicos y aceites requieren
+                                 un manejo especial. Consulta las pautas locales para
+                                deshacerte de estos materiales de manera segura.
+                                Educa a otros:
+                                Comparte tus conocimientos sobre reciclaje con
+                                 familiares y amigos. Promover buenas prácticas de
+                                 reciclaje ayuda a crear un impacto más amplio.
+                                Mantente informado:
+                                Las recomendaciones y regulaciones sobre reciclaje
+                                pueden cambiar. Mantente al tanto de las últimas
+                                noticias y mejores prácticas para seguir reciclando
+                                de manera efectiva."
+                android:textAlignment="gravity"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="95dp"
+                android:layout_height="72dp"
+                app:srcCompat="@drawable/BotonInicio"
+                android:layout_marginStart="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

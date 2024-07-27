@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".categoria">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                app:srcCompat="@drawable/tituloEcoRecicla" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="429dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="65dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Carton"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="287dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Papel"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Plastico"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Vidrio"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Metal"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Otros"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/Contenedores" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="91dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="30dp"
+                app:srcCompat="@drawable/BotonInicio" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
