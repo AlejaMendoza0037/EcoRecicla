@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo2"
-    tools:context=".estadistica">
+    tools:context=".Statistics">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/tituloEcoRecicla" />
+                app:srcCompat="@drawable/tituloecorecicla" />
         </LinearLayout>
 
         <LinearLayout
@@ -35,7 +35,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/estadisticasReciclaje" />
+                app:srcCompat="@drawable/estadisticasreciclajecopia" />
         </LinearLayout>
 
         <LinearLayout
@@ -76,7 +76,7 @@
                 android:layout_width="87dp"
                 android:layout_height="81dp"
 
-                app:srcCompat="@drawable/BotonInicio" />
+                app:srcCompat="@drawable/botoninicio" />
         </LinearLayout>
     </LinearLayout>
 

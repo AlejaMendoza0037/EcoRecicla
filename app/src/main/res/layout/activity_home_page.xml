@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo2"
-    tools:context=".paginaInicio">
+    tools:context=".HomePage">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/buttonLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#4F5081E1"
@@ -28,6 +28,8 @@
                 app:cornerRadius="1dp"
                 android:textStyle="bold"
                 android:text="Iniciar Sesion"
+                android:onClick="goToRegister"
+                android:clickable="true"
 
 
                 />
@@ -39,10 +41,10 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/imageView12"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/tituloEcoRecicla" />
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tituloecorecicla" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,44 +83,19 @@
                 android:layout_width="10dp"
                 android:layout_height="10dp" />
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#4F5081E1"
-                android:textStyle="bold"
-                android:text="Categorias"
-                app:cornerRadius="1dp"
-                />
+
 
             <View
                 android:layout_width="10dp"
                 android:layout_height="5dp" />
 
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#4F5081E1"
-                android:textStyle="bold"
-                android:text="Estadisticas"
-                app:cornerRadius="1dp" />
+
 
             <View
                 android:layout_width="5dp"
                 android:layout_height="5dp" />
 
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="#4F5081E1"
-                android:textStyle="bold"
-                android:text="Consejos"
-                app:cornerRadius="1dp" />
+
 
             <View
                 android:layout_width="4dp"
@@ -183,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/tipsReciclaje" />
+                app:srcCompat="@drawable/tipsreciclaje" />
         </LinearLayout>
 
         <LinearLayout
@@ -196,8 +173,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/tipsCarton"
-                android:layout_marginTop="15dp"/>
+                app:srcCompat="@drawable/tipscartoncopia" />
 
             <TextView
                 android:id="@+id/textView16"

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo2"
-    tools:context=".categoria">
+    tools:context=".Categories">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,14 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="42dp"
             android:layout_marginTop="30dp"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="match_parent"
-                android:layout_height="34dp"
-                app:srcCompat="@drawable/tituloEcoRecicla" />
-        </LinearLayout>
+            android:orientation="vertical"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -104,10 +97,16 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/contenedores" />
+
+            <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/Contenedores" />
+                app:srcCompat="@drawable/contenedores" />
         </LinearLayout>
 
         <LinearLayout
@@ -121,7 +120,7 @@
                 android:layout_width="91dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="30dp"
-                app:srcCompat="@drawable/BotonInicio" />
+                app:srcCompat="@drawable/botoninicio" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

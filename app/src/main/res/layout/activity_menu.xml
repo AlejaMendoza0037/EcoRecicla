@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="352dp"
+
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/tituloecorecicla"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:breakStrategy="simple"
+                android:layout_marginStart="65dp"
+                android:text="Menu"
+                android:textColor="#040404"
+                android:textSize="30dp"
+                android:textStyle="bold"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="357dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/buttonCategories"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="65dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Categorias"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/buttonStatistics"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Estadisticas"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+            <Button
+                android:id="@+id/buttonTips"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Consejos"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+            <Button
+
+
+                android:id="@+id/buttonRecyclingRegister"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Registro de reciclaje"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="65dp"
+                android:backgroundTint="#4F5081E1"
+                android:text="Cerrar Sesion"
+                android:textStyle="bold"
+                app:cornerRadius="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
